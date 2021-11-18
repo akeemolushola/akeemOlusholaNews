@@ -237,7 +237,7 @@ nav > ul > li > a:hover::before {
 
 @media (max-width: 900px) {
     body {
-        width: auto;
+        max-width: auto;
     }
     header {
         max-width: 900px;
@@ -260,7 +260,7 @@ nav > ul > li > a:hover::before {
 
 @media (max-width: 450px) {
     body {
-        width: auto;
+        max-width: auto;
     }
     header {
         margin: 0;
@@ -277,12 +277,13 @@ nav > ul > li > a:hover::before {
     }
     nav > ul > li > a {
         padding: 0 .4rem;
+        font-size: .8rem
     }
     #news {
         width: 450px;
         display: flex;
         flex-direction: column;
-        padding: 1rem;
+        padding:1rem 0 1rem 1rem;
     }
     .card-container {
         padding: 0;
