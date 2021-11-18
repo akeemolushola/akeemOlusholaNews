@@ -237,10 +237,10 @@ nav > ul > li > a:hover::before {
 
 @media (max-width: 900px) {
     body {
-        max-width: auto;
+        max-width: 450px;
     }
     header {
-        max-width: 900px;
+        width: 900px;
         margin: 0;
         padding-bottom: 2rem;
         display: grid;
@@ -260,7 +260,7 @@ nav > ul > li > a:hover::before {
 
 @media (max-width: 450px) {
     body {
-        max-width: auto;
+        width: 450px;
     }
     header {
         margin: 0;
@@ -277,7 +277,7 @@ nav > ul > li > a:hover::before {
     }
     nav > ul > li > a {
         padding: 0 .4rem;
-        font-size: .8rem
+        font-size: .8rem;
     }
     #news {
         width: 450px;
