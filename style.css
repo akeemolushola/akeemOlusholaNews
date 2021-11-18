@@ -284,10 +284,12 @@ nav > ul > li > a:hover::before {
         width: 450px;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         padding:1rem 0 1rem 1rem;
     }
     .card-container {
         padding: 0 2.5rem;
+        max-width: 400px;
     }
     .card-title{
         font-size: 1.6rem;
