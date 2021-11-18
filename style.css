@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 /* .width-container {
 } */
@@ -298,6 +299,6 @@ nav > ul > li > a:hover::before {
         display: none;
     }
     .footer-container {
-        max-width: 450px;
+        max-width: 420px;
     }
 }
